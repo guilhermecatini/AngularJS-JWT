@@ -144,7 +144,7 @@ vm.Create = Create
 function Create() {
   $http({
     method: 'POST',
-    url: '/api/users/create',
+    url: 'http://catini.org:3001/api/users/create',
     data: vm.user,
     headers: {
       'Authorization': vm.myToken
@@ -213,7 +213,7 @@ vm.Retrieve = Retrieve
 function Retrieve() {
   $http({
     method: 'GET',
-    url: '/api/users/retrieve',
+    url: 'http://catini.org:3001/api/users/retrieve',
     headers: {
       'Authorization': vm.myToken
     }
