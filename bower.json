@@ -11,8 +11,12 @@
     "**/.*",
     "node_modules",
     "bower_components",
-    "public/vendor",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "bootstrap": "3",
+    "angular": "1.6.9",
+    "jquery": "^3.3.1"
+  }
 }
